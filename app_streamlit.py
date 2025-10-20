@@ -17,7 +17,7 @@ berat = st.slider("Berat", 50.0, 150.0, 110.0
 tebal_kulit = st.slider("Tebal Kulit", 3.0, 7.0, 3.5)
 kadar_gula = st.slider("Kadar Gula", 5.0, 10.0, 6.0)
 asal_daerah = st.pills("Asal Daerah", ["California", "Malang", "Medan" ="California"]
-warna = st.pills("Warna", ["Hijau pekat","Kuning kehijauan","Kuning cerah" default = "Kuning kehijauan")
+warna = st.pills("Warna", ["Hijau pekat","Kuning kehijauan","Kuning cerah" default = "Kuning kehijauan"]
 musim_panen = st.pills("Musim Panen", ["Puncak","Akhir","Awal"], default="Puncak")
 
 if st.button("Prediksi", type="primary"):
@@ -29,4 +29,5 @@ if st.button("Prediksi", type="primary"):
 
 st.divider()
 st.captions(Dibuat dengan :lemon: oleh **Saffa Dhiya**")
+
 
