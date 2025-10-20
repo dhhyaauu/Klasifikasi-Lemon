@@ -28,6 +28,7 @@ if st.button("Prediksi", type="primary"):
 	st.balloons()
 
 st.divider()
-st.captions(Dibuat dengan :lemon: oleh **Saffa Dhiya**")
+st.captions(Dibuat dengan oleh **Saffa Dhiya**")
+
 
 
