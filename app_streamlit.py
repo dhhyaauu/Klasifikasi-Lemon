@@ -6,7 +6,7 @@ st.set_page_config(
     page_title="Belajar Klasifikasi Lemon",
     page_icon=":lemon:")
 
-model = joblib.load("model_Klasifikasi_lemon.joblib")
+model = joblib.load("model_klasifikasi_lemon.joblib")
 
 st.title(":lemon: Belajar Klasifikasi Lemon")
 st.markdown("Aplikasi machine learning classification untuk memprediksi kualitas lemon")
@@ -32,3 +32,4 @@ if st.button("Prediksi", type="primary"):
 
 st.divider()
 st.caption("Dibuat dengan :lemon: oleh DHHYAAAU")
+
